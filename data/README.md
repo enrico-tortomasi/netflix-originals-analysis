@@ -24,15 +24,15 @@ Dataset originale disponibile su Kaggle:
 
 \- `country` – Paese di produzione
 
-\- `date\_added` – Data di aggiunta su Netflix
+\- `date_added` – Data di aggiunta su Netflix
 
-\- `release\_year` – Anno di rilascio
+\- `release_year` – Anno di rilascio
 
 \- `rating` – Classificazione
 
 \- `duration` – Durata (minuti o stagioni)
 
-\- `listed\_in` – Generi
+\- `listed_in` – Generi
 
 \- `description` – Descrizione
 
@@ -42,7 +42,7 @@ Dataset originale disponibile su Kaggle:
 
 In questa cartella troverai:
 
-\- `netflix\_titles.csv`
+\- `netflix_titles.csv`
 
 
 
