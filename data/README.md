@@ -12,7 +12,7 @@ Dataset originale disponibile su Kaggle:
 
 \## Descrizione colonne principali
 
-\- `show\_id` – ID unico per Movie / TV Show
+\- `show_id` – ID unico per Movie / TV Show
 
 \- `type` – Tipologia (Movie / TV Show)
 
