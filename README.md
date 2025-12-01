@@ -1,33 +1,98 @@
 # Netflix Originals Analysis (Python/Pandas)
 ![Completed](https://img.shields.io/badge/Completed-✓-3CB371)
 
-## Obiettivo
-Analizzare trend e pattern dei contenuti Netflix: crescita per anno, generi dominanti, paesi, e insight utili.
+Analisi esplorativa dei titoli Netflix (film e serie) con l’obiettivo di capire
+come si distribuiscono i contenuti nel tempo, per paese e per genere.
+
+Il progetto è pensato per mostrare competenze di base/intermedie in:
+pulizia dati con Pandas, analisi esplorativa (EDA) e visualizzazioni semplici.
+
+---
 
 ## Dataset
 - Fonte: (https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - Campi principali: title, date_added, country, listed_in (generi), type
 - Nota: dataset completo incluso `data/netflix_titles.csv`. Istruzioni sotto per riprodurre.
 
-## Metodi / Stack
-- Python (Pandas, Matplotlib/Seaborn)
-- Passi: cleaning → feature engineering → EDA → visualizzazioni → insight
+---
 
-## Risultati chiave (esempi)
+## Obiettivi dell’analisi
+
+- Capire come è cambiato nel tempo il numero di contenuti rilasciati.
+- Analizzare la distribuzione dei contenuti per paese.
+- Analizzare la distribuzione per genere / categoria.
+- Mettere in evidenza eventuali pattern (es. focus crescente sulle serie TV).
+
+---
+
+## Strumenti utilizzati
+
+- Python 3.x
+- Librerie: `pandas`, `matplotlib`, `seaborn`
+- Jupyter Notebook
+
+---
+
+## Workflow
+
+1. Caricamento del dataset (`read_csv`).
+2. Pulizia dati:
+   - gestione dei valori nulli
+   - normalizzazione di date e paesi
+   - creazione di colonne derivate (es. anno di rilascio).
+3. Analisi esplorativa:
+   - conteggi per anno
+   - conteggi per paese
+   - conteggi per genere / categoria
+4. Visualizzazioni:
+   - bar chart per numero di titoli per anno
+   - bar chart per top paesi
+   - grafici per tipo di contenuto (Film vs TV Show).
+
+---
+
+## Struttura del repository
+
+```
+text
+netflix-originals-analysis/
+│
+├─ data/
+│   └─ netflix_titles.csv
+├─ notebooks/
+│   └─ netflix_originals_analysis.ipynb
+└─ README.md
+```
+
+---
+
+## Insight principali
+
 - Crescita dei contenuti: la libreria di Netflix Originals è cresciuta significativamente nel tempo, con un aumento annuale dei titoli prodotti.
 - Distribuzione per genere: i generi più comuni sono Drama, Comedy e Action, riflettendo le preferenze degli spettatori.
 - Produzione per paese: gli Stati Uniti guidano la produzione, seguiti da India e Regno Unito.
 
-## Struttura repo
-- `notebooks/netflix.ipynb` – analisi completa con grafici
-- `data/netflix_titles.csv` – campione dati
-- `graphs/` – immagini principali
-- `requirements.txt` – dipendenze
+---
 
 ## Riproduzione
-```bash
+
+```
+bash
 python -m venv venv
 # Windows: venv\Scripts\activate
 # macOS/Linux: source venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook notebooks/netflix.ipynb
+```
+
+---
+
+## Come eseguire il notebook
+
+Clonare il repository.
+
+Installare le dipendenze minimo (pandas, matplotlib, seaborn).
+
+Aprire il notebook in Jupyter / VS Code.
+
+Eseguire tutte le celle in ordine.
