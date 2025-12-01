@@ -1,4 +1,5 @@
 # Netflix Originals Analysis (Python/Pandas)
+![Completed](https://img.shields.io/badge/Completed-✓-3CB371)
 
 ## Obiettivo
 Analizzare trend e pattern dei contenuti Netflix: crescita per anno, generi dominanti, paesi, e insight utili.
