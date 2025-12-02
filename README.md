@@ -54,7 +54,6 @@ pulizia dati con Pandas, analisi esplorativa (EDA) e visualizzazioni semplici.
 ## Struttura del repository
 
 ```
-text
 netflix-originals-analysis/
 │
 ├─ data/
