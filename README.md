@@ -59,6 +59,13 @@ netflix-originals-analysis/
 │
 ├─ data/
 │   └─ netflix_titles.csv
+├─ graphs/
+│   ├─ (Barplot)Categorie_Ultimi_5_Anni.png
+│   ├─ (Barplot)Contenuti_per_anno.png
+│   ├─ (Barplot)Regioni_maggior_numero_films.png
+│   ├─ (Barplot)Regioni_maggior_numero_serietv.png
+│   ├─ (Piechart)Rating_Movies.png
+│   └─ (Piechart)Rating_SerieTV.png
 ├─ notebooks/
 │   └─ netflix_originals_analysis.ipynb
 └─ README.md
