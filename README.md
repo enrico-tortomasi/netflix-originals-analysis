@@ -77,9 +77,21 @@ netflix-originals-analysis/
 
 ## Insight principali
 
-- Crescita dei contenuti: la libreria di Netflix Originals è cresciuta significativamente nel tempo, con un aumento annuale dei titoli prodotti.
-- Distribuzione per genere: i generi più comuni sono Drama, Comedy e Action, riflettendo le preferenze degli spettatori.
-- Produzione per paese: gli Stati Uniti guidano la produzione, seguiti da India e Regno Unito.
+- ## Crescita dei contenuti: la libreria di Netflix Originals è cresciuta significativamente nel tempo, con un aumento annuale dei titoli prodotti.
+
+![1](graphs/(Barplot)Contenuti_per_anno.png)
+
+---
+
+- ### Distribuzione per genere: i generi più comuni sono Drama, Comedy e Action, riflettendo le preferenze degli spettatori.
+
+![2](graphs/(Barplot)Categorie_Ultimi_5_Anni.png)
+
+---
+ 
+- ### Fra i Films presenti sono quelli con rating TV-14 (adolescenti) e TV-MA (publico per adulti) ad occupare più della metà del catalogo disponibile.
+
+![3](graphs/(Piechart)Rating_Movies.png)
 
 ---
 
