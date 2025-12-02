@@ -10,7 +10,7 @@ pulizia dati con Pandas, analisi esplorativa (EDA) e visualizzazioni semplici.
 ---
 
 ## Dataset
-- Fonte: (https://www.kaggle.com/datasets/shivamb/netflix-shows)
+- Fonte: [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - Campi principali: title, date_added, country, listed_in (generi), type
 - Nota: dataset completo incluso `data/netflix_titles.csv`. Istruzioni sotto per riprodurre.
 
